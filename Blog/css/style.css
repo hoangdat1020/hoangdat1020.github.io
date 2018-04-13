@@ -1,0 +1,19 @@
+a:link {
+	color: black;
+
+}
+
+a:hover{
+	color: blue;
+}
+a:active{
+	color:green;
+}
+
+img.anhdanhsach200px{
+	max-width: 200px;
+}
+	
+
+
+
