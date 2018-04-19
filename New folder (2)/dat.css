@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #doan1{
 	text-align: center;
 }
@@ -12,4 +13,20 @@ p{
 }
 .class2{
 	font-style: italic;
+=======
+#doan1{
+	text-align: center;
+}
+p{
+	margin: 25px 125px 25px 125px;
+
+}
+.class1{
+	font-size: 3em;
+	color: blue;
+	
+}
+.class2{
+	font-style: italic;
+>>>>>>> ed11ff9fcc06a61b34c87654643a6a4af248246f
 }
