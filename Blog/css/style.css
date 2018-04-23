@@ -17,6 +17,7 @@
 	width: 100%;
 }
 #sp h2{
+	animation: title 10s ease infinite;
 	   left: 35px;
     top: 427px;
 	position: absolute;
@@ -68,3 +69,19 @@ text-align: center;
     right: 10px;
     bottom: 30px;
 }
+
+@keyframes title{
+	50%{
+		color: red;
+	}
+}
+ 
+.cl2{
+	overflow: hidden;
+}
+   img:hover {
+     transform: scale(1.2);
+     opacity: 0.8;
+    }
+
+
