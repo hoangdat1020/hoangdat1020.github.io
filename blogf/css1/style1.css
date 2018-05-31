@@ -1,32 +1,16 @@
-@keyframes title{
-	 0%  {background-color: #EF7126; color: #F9E559;}
-    25%  {background-color: #6F3662; color: #FFFFFF;}
-    50%  {background-color: #9F6164; color: #F8DEBD;}
-    75%  {background-color: #44B3C2; color: #FFFFFF;}
-    100% {background-color: #218C8D; color: #F9E559;}
+#menu > li > ul {
+    list-style-type: none;
+    display: none;
 }
-@keyframes fadei{
-
-
-0% {width: 100%; opacity: 1}
-
-
-100% {width: 60%; opacity: 0}
-
-
+#menu > li:hover > ul {
+    display: block;
 }
- h4{
- 	animation: fadei 5s ease infinite;
- }
-
-h2{
-	animation: title 5s ease infinite;
+#menu {
+    list-style-type: none;
 }
-.imgsp{
-	overflow: hidden;
+#menu > li {
+    float: left;
 }
-img:hover{
-	transform: translate(0,-5px);
-	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
-	opacity: 0.5;
-}
+body { color: black }
+a { color: red; }
+ul { color: green; }

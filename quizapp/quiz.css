@@ -1,0 +1,13 @@
+body{
+	font-family: serif;
+	background-color: #6cf;
+}
+.quiz1{
+	height: 500px;
+	width: 600px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	border : 2px solid #cbcbcb;
+}
